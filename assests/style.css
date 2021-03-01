@@ -55,11 +55,12 @@ a {
     font-size: 27px;
 }
 
+
 /* sets image width and height and left-right margin */
 img {
-    width: 345px;
-    height: 200px;
-    margin: 0 450px;
+    width: 600px;
+    height: 325px;
+    margin: 0 328px;
 
 }
 
@@ -83,6 +84,56 @@ img {
     margin-top:50px;
     font-size: 20px;
 }
+
+/* set height width border and margin of block element containing form */
+#form{
+    width: 450px;
+    height: 100px;
+    border: orangered solid 3px;
+    border-radius: 24px;
+    margin:10px 392px;
+}
+
+/* set right and left margin of the form  */
+#form form{
+    margin: 0 10px;
+}
+
+/* sets margin of block containing Name label and input element */
+#name{
+    margin: 5px 25px;
+
+}
+
+/* sets margin of block containinig Email label and input element */
+#email{
+    margin:5px 27px;
+
+}
+
+/* sets name input width  */
+#name input{
+    width: 300px;
+}
+
+
+/* sets email input width */
+#email input{
+    width: 300px;
+}
+
+
+/* set the submit button width, height, background-color, color, padding and margin */
+#submit input{
+    width: 150px;
+    height: 35px;
+    align-items: center;
+    margin: 0 150px;
+    padding: 2px;
+    background-color:orangered ;
+    color: white;
+}
+
 
 /* Set footer at the center,added background color,border top, font color and padding top-bottom */
 .footer{
