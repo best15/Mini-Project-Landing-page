@@ -54,3 +54,17 @@ a {
     margin:10px 10px;
     font-size: 27px;
 }
+
+/* sets image width and height and left-right margin */
+img {
+    width: 345px;
+    height: 200px;
+    margin: 0 450px;
+
+}
+
+/* Sets the text content below image at center with margin-bottom 30px */
+#image p{
+    margin-bottom:30px;
+    text-align: center;
+}
