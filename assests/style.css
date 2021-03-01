@@ -68,3 +68,18 @@ img {
     margin-bottom:30px;
     text-align: center;
 }
+
+/* sets the contactinfo block background color and border-top with width and height defined */
+#contactinfo{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(177, 136, 102);
+    border-top: orangered solid 3px;
+}
+
+/* Sets h2 element content at centre with font-size 20px and margin-top 50px */
+#contactinfo h2{
+    text-align: center;
+    margin-top:50px;
+    font-size: 20px;
+}
