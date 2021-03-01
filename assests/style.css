@@ -11,3 +11,39 @@
 body{
     background-color: cornsilk;
 }
+
+/* sets the header element with padding top-bottom 30px,background color  */
+.header {
+    padding: 30px;
+    background-color: #064230;
+    border-bottom: orangered 3px solid;
+    
+}
+
+/* sets the navbar padding 15px on top, margin-20px on top-bottom and floated to right side of browser and font family and font size selected */
+.header nav {
+    padding-bottom: 10px;
+    margin-right: 20px;
+    margin-top: -10px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* Nav bar list style set to none ,deletes all the bullets in the list */
+.header nav ul {
+    list-style-type: none;
+}
+
+/* sets nav bar links display to inline block to align them next to each other with margin-left 25px */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+/* sets the nav bar links color white and disable any text-decorations */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
